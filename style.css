@@ -1,0 +1,201 @@
+body {
+  background-color: white;
+  margin: 0 !important;
+}
+
+h1 {
+  color: red;
+  font-family: 'Koulen', cursive;
+  position: absolute;
+  top: 15%;
+  left: 14%;
+  font-size: 50px;
+}
+
+h3 {
+  color: rgb(159, 0, 19);
+  font-family: 'Koulen', cursive;
+  position: absolute;
+  top: 30%;
+  left: 14%;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: large;
+  /* padding: 30px;  */
+  text-align: center;
+  margin: 0%;
+}
+
+.header {
+  background-color: aqua;
+  height: 700px;
+  width: 100%;
+  font-family: 'Roboto Flex', sans-serif;
+  background-image: url('mountain.jpeg');
+  background-size: cover;
+  background-position: 50% 25%;
+}
+
+.transparent {
+  background-color: grey;
+  opacity: 0.25;
+  position: relative;
+  top: 10%;
+  left: 7.5%;
+  height: 65%;
+  width: 600px;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0%;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+a {
+  font-family: 'Roboto Flex', sans-serif;
+  color: deeppink;
+  padding: 5px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+  color: white;
+  background-color: deeppink;
+}
+
+.base {
+  background-color: white;
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 25%;
+}
+
+.picture {
+  position: relative;
+  background-image: url('123.jpeg');
+  background-position: center;
+  top: 10%;
+  left: 7.5%;
+  height: 70%;
+  width: 600px;
+}
+
+.transparent2 {
+  background-color: pink;
+  position: relative;
+  bottom: 60%;
+  left: 49.75%;
+  height: 70%;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: x-large;
+  padding: 30px;
+  text-align: top;
+  margin: 0%;
+  font-weight: 700;
+  text-align: center;
+}
+
+button {
+  justify-self: center;
+  width: fit-content;
+  background-color:deeppink;
+  color: black;
+}
+
+.button2 {
+  width: 852px;
+  margin-top: 10px ;
+}
+
+.button3 {
+  width: 285px;
+  margin-top: 10px ;
+}
+
+.photo-1 {
+  background-image: url("learn-to-relax.png");
+  opacity: 0.75;
+  width: 33%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo-2 {
+  background-image: url("emotions.png");
+  opacity: 0.75;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+}
+
+.photo-3 {
+  background-image: url("understanding.webp");
+  opacity: 0.75;
+  width: 33%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.all-photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 300px;
+  padding: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width:60%;
+
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 20%;
+}
+
+.center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.margin10{
+  margin:10px;
+}
+
+input{
+  border-right: 0;
+  border-top: 0;
+  border-left: 0;
+}
+
